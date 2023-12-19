@@ -14,7 +14,7 @@ Feature: Verify SST Login Deatils
 
   Scenario Outline: Verify SST Login Using Enter
     When User Should Perform Login "<UserName>","<Password>" With Enter Key
-    Then User Should Verify After Login Success Message "Dashboard"
+    Then User Should Verify After Login Success Message "Dashboard3"
 
     Examples: 
       | UserName      | Password   |
@@ -22,7 +22,7 @@ Feature: Verify SST Login Deatils
 
   Scenario Outline: Verify SST Login Invalid Credentials
     When User Should Perform Login "<UserName>","<Password>"
-    Then User Should Verify After Login With Invalid Credentials Error Message Contains "Invalid login attempt."
+    Then User Should Verify After Login With Invalid Credentials Error Message Contains "Invalid login attempt3."
 
     Examples: 
       | UserName      | Password |
