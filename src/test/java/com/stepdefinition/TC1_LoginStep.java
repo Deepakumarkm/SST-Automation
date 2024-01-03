@@ -36,7 +36,7 @@ public class TC1_LoginStep extends BaseClass {
 		String text = dashboardSucces.getText();
 		org.testng.Assert.assertEquals(text, string, text);
 		Assert.assertEquals("Dashboard", text);
-	Assert.assertEquals("Dashboard", text);
+	    Assert.assertEquals("Dashbosssard", text);
 		
 		
 	}

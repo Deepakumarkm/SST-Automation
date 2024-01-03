@@ -14,7 +14,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(dryRun = false, tags = (""), plugin = {
+@CucumberOptions(dryRun = false, tags = ("  "), plugin = {
 		"json:target\\output.json" }, features = "src\\test\\resources", glue = "com.stepdefinition")
 
 public class TestRunnerClass extends BaseClass {
